@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post new job details</title>
+</head>
+<body>
+    <form action="http://127.0.0.1:5000/create_job/job_details" method="post">
+        <label for="type">Enter Job type</label><br>
+        <input type="text" id="job_type" name="job_type"><br>
+
+        <label for="description">Description</label><br>
+        <textarea rows = "5" cols = "40" id="description" name = "description"></textarea><br>
+        
+
+        <label for="budget">Budget ( In Canadian Dollars)</label><br>
+        <input type="text" id="budget" name="budget"><br>
+
+        <label for="contact">Contact details</label><br>
+        <input type="text" id="contact" name="contact"><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
