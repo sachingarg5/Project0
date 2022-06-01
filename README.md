@@ -31,7 +31,7 @@
 - User can logout.
 
 
-##Featurs
+## Featurs
 * The website is hosted with Flask server.
 * All data is stored on remote database.
 * User is uniquely identified.
