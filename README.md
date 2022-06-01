@@ -4,11 +4,11 @@
 
 
 ## Description
-*This is a website where uesr can post his house repair work to find handyman
-*The users gruop includes house owners, propery managers and tenants.
-*The website includes varity  of jobs like pet walking, snow sveling.
-*Anyone can see the job posting, budget and contact the person by mobile number.
-*A user can view his all previous job postings
+* This is a website where uesr can post his house repair work to find handyma
+* The users gruop includes house owners, propery managers and tenants.
+* The website includes varity  of jobs like pet walking, snow sveling.
+* Anyone can see the job posting, budget and contact the person by mobile number.
+* A user can view his all previous job postings
 
 
 ## Purpose
