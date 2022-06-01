@@ -3,6 +3,11 @@ from models.user_info_dto import User
 from models.login_dto import Login
 from repository.job_dao import insert_job_info
 from repository.user_info_dao import select_by_user, select_user_info_by_id
+from service.validation_service import validate_new_job
+
+
+def validate_job_post(input_dict):
+   return validate_new_job((input_dict["job_type"],(input_dict["description"]),(input_dict["budget"]),(input_dict["contact"])))
 
 def create_new_job(input):
     if 'info_id' in session:
