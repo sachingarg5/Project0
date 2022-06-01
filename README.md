@@ -1,6 +1,7 @@
 # Project0
 
-https://img.shields.io/github/languages/code-size/sachingarg5/project0
+ ![Size](https://img.shields.io/github/languages/code-size/sachingarg5/project0)
+
 
 ## Description
 *This is a website where uesr can post his house repair work to find handyman
