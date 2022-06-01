@@ -6,10 +6,6 @@ from controller.home_controller import *
 from controller.login_controller import *
 from controller.create_job_controller import *
 
-# def main():
-#     print(insert_user("test_user_1","test_Pass_1"))
-#     login_details=select_user("test_user_1","test_Pass_1")
-#     print(f"username= {login_details.username}")
 
 app = Flask(__name__)
 app.secret_key="xyz"
@@ -45,6 +41,10 @@ def create_new_job():
 @app.route('/view_jobs', methods=["GET"])
 def view_posted_jobs():
     return get_posted_jobs()
+
+@app.route('/log_out', methods=['GET'])
+def view_log_out_page():
+    return get_log_out_page()
 
 if __name__ == "__main__":
     app.run(debug=True)
